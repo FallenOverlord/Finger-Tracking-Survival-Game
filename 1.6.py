@@ -126,7 +126,7 @@ while running:
     #display the fps info on the screen
     cv2.putText(img, str(int(fps)), (10,70), cv2.FONT_HERSHEY_PLAIN, 3, (255,0,255), 3)
     #show image box, name = img
-    #cv2.imshow("img", img)
+    cv2.imshow("img", img)
     cv2. waitKey(1)
 
     screen.fill(WHITE)
